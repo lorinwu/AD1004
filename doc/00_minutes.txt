@@ -1,0 +1,27 @@
+1. 课程安排:
+	Test (chapter 6)  -- Hailie Chou
+	Memory management (chapter 3)  -- Sam Shi
+	Time & Date (chapter 2)  -- Ivan Qi
+	Utility (chapter 4)  --  Lorin Wu
+	Log (added) – Renter Ren
+	String (chapter 5) – Joe Wang
+	Container & data structure (chapter 7) – David Dong
+	Algorithm & math (chapter 8/9, rational is optional) – Ouki Wang
+	OS (chapter 10 exclude filesystem) – Bruce An
+	Filesystem (section 10.4) – Ecular Xu
+	Function & callback (chapter 11) – Xandy Xu
+	Thread (section 12.1) - Xiang Wang
+	Asio (section 12.2) -- Steed Zheng
+	Interprocess (added) -- Simon Huang
+
+
+2. 文档放在doc/下
+3. 代码用git管理，Renter帮忙准备
+4. Renter帮忙准备Linux下的boost库
+5. Xandy帮忙准备Windows下的boost库
+6. Renter帮忙准备一个Linux环境给大家使用
+5. 根据src/readme.txt文件进行编译和运行
+6. 所有递交的代码需至少在两个平台下编译没有错误和告警
+7. 不能有标准输出
+
+
