@@ -10,8 +10,21 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="factory.h" />
+    <ClInclude Include="misc.h" />
+    <ClInclude Include="objectpool_test.h" />
+    <ClInclude Include="pimpl_sample.h" />
+    <ClInclude Include="weak_test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="factory.cpp" />
+    <ClCompile Include="main_test.cpp" />
+    <ClCompile Include="misc.cpp" />
+    <ClCompile Include="pimpl_sample.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3998E06D-B29C-4E82-9136-C4BA06A02A32}</ProjectGuid>
+    <ProjectGuid>{3998E06D-B29C-4E82-9136-C4BA06A02A33}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>My02_memory_management</RootNamespace>
   </PropertyGroup>
@@ -77,13 +90,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main_test.cpp" />
-    <ClCompile Include="misc.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="misc.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
